@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreedMead — Sistemas Inteligentes de Atração e Resposta</title>
+    <meta name="description" content="Transforme seu site em uma máquina de captar e responder clientes. Design estratégico, automação inteligente e páginas de alta conversão para empresas que querem resultados reais.">
+    <meta name="keywords" content="landing page, automação, captação de leads, design de conversão, sites profissionais">
+    <meta name="author" content="CreedMead">
+    <meta property="og:title" content="CreedMead — Sistemas Inteligentes de Atração e Resposta">
+    <meta property="og:description" content="Seu site não deveria apenas existir. Ele deveria trabalhar por você. Conheça nosso sistema de captação e resposta automatizada.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="CreedMead - Voltar ao topo">
+                <svg class="nav-logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="2" y="2" width="28" height="28" rx="6" stroke="url(#logo-grad)" stroke-width="2"/>
+                    <path d="M10 22V10L22 22V10" stroke="url(#logo-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <defs>
+                        <linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#00D4FF"/>
+                            <stop offset="1" stop-color="#0066FF"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="nav-logo-text">Creed<span class="nav-logo-accent">Meed</span></span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#solucao" class="nav-link">Solução</a>
+                <a href="#diferenciais" class="nav-link">Diferenciais</a>
+                <a href="#processo" class="nav-link">Processo</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+            </div>
+            <a href="#contato" class="nav-cta-btn" id="nav-cta">
+                <span>Solicitar Diagnóstico</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <button class="nav-mobile-toggle" id="nav-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+        <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                <span>Sistema Inteligente de Atração e Resposta</span>
+            </div>
+            <h1 class="hero-title">
+                Seu site não deveria<br>apenas existir.<br>
+                <span class="hero-title-gradient">Ele deveria trabalhar<br>por você.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Criamos sistemas digitais que captam, respondem e organizam seus leads automaticamente — enquanto você foca no que realmente importa.
+            </p>
+            <div class="hero-actions">
+                <a href="#contato" class="btn-primary" id="hero-cta">
+                    <span>Solicitar Diagnóstico Gratuito</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#solucao" class="btn-secondary" id="hero-learn-more">
+                    <span>Como funciona</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M17 10c0 3.866-3.134 7-7 7s-7-3.134-7-7 3.134-7 7-7 7 3.134 7 7z" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v4l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </span>
+                    <span class="hero-stat-text">Resposta em segundos</span>
+                </div>
+                <div class="hero-stat-divider" aria-hidden="true"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10l5 5L17 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span class="hero-stat-text">Captação automatizada</span>
+                </div>
+                <div class="hero-stat-divider" aria-hidden="true"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2v4M10 14v4M2 10h4M14 10h4M4.93 4.93l2.83 2.83M12.24 12.24l2.83 2.83M4.93 15.07l2.83-2.83M12.24 7.76l2.83-2.83" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </span>
+                    <span class="hero-stat-text">Design + Estratégia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PAIN SECTION ========== -->
+    <section class="section section-pain" id="problemas">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Diagnóstico</span>
+                <h2 class="section-title">Reconhece algum<br>desses cenários?</h2>
+                <p class="section-desc">A maioria das empresas perde oportunidades todos os dias — sem perceber. Veja se alguma dessas situações faz parte da sua rotina.</p>
+            </div>
+            <div class="pain-grid" data-animate="stagger">
+                <div class="pain-card">
+                    <div class="pain-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 9v4M12 17h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="pain-card-title">Poucos contatos pelo site</h3>
+                    <p class="pain-card-text">Seu site existe, mas não gera contatos. Os visitantes entram, olham e saem — sem deixar nenhum rastro.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="pain-card-title">Demora para responder clientes</h3>
+                    <p class="pain-card-text">Quando o lead entra em contato, já é tarde demais. Ele encontrou quem respondeu primeiro.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="pain-card-title">Oportunidades perdidas</h3>
+                    <p class="pain-card-text">Leads chegam por vários canais e se perdem no caminho. Sem organização, sem follow-up, sem fechamento.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M9 21V9" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3 class="pain-card-title">Imagem amadora ou ultrapassada</h3>
+                    <p class="pain-card-text">Seu site transmite a mensagem errada. Em vez de autoridade e confiança, passa uma impressão datada e pouco profissional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOLUTION SECTION ========== -->
+    <section class="section section-solution" id="solucao">
+        <div class="container">
+            <div class="solution-layout">
+                <div class="solution-content" data-animate="fade-right">
+                    <span class="section-label">Nossa Solução</span>
+                    <h2 class="section-title">Sistema Inteligente de<br><span class="text-gradient">Atração e Resposta</span></h2>
+                    <p class="solution-text">
+                        Não entregamos apenas um site bonito. Construímos um sistema completo que atrai visitantes qualificados, captura suas informações, responde automaticamente e organiza tudo para você fechar mais negócios.
+                    </p>
+                    <div class="solution-pillars">
+                        <div class="solution-pillar">
+                            <div class="solution-pillar-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 3h6v6H3V3zM13 3h4v4h-4V3zM13 13h4v4h-4v-4zM3 13h6v4H3v-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div>
+                                <strong>Design Estratégico</strong>
+                                <p>Cada elemento posicionado para guiar o visitante até a conversão.</p>
+                            </div>
+                        </div>
+                        <div class="solution-pillar">
+                            <div class="solution-pillar-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2L2 7l8 5 8-5-8-5zM2 13l8 5 8-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div>
+                                <strong>Captação Inteligente</strong>
+                                <p>Formulários e flows desenhados para maximizar leads qualificados.</p>
+                            </div>
+                        </div>
+                        <div class="solution-pillar">
+                            <div class="solution-pillar-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3v6l4 2-4 2v6M7 17v-6L3 9l4-2V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div>
+                                <strong>Automação com Python</strong>
+                                <p>Respostas automáticas e organização de leads sem esforço manual.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-visual" data-animate="fade-left">
+                    <div class="solution-visual-card">
+                        <div class="visual-card-header">
+                            <span class="visual-card-dot red"></span>
+                            <span class="visual-card-dot yellow"></span>
+                            <span class="visual-card-dot green"></span>
+                            <span class="visual-card-title">sistema_CreedMead.py</span>
+                        </div>
+                        <div class="visual-card-body">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">CreedMeadSystem</span>:
+    <span class="code-keyword">def</span> <span class="code-func">captar_lead</span>(self, visitante):
+        lead = self.qualificar(visitante)
+        self.responder_automaticamente(lead)
+        self.organizar_pipeline(lead)
+        <span class="code-keyword">return</span> <span class="code-string">"Lead convertido ✓"</span>
+
+    <span class="code-keyword">def</span> <span class="code-func">resultado</span>(self):
+        <span class="code-keyword">return</span> {
+            <span class="code-string">"captação"</span>: <span class="code-string">"automática"</span>,
+            <span class="code-string">"resposta"</span>: <span class="code-string">"instantânea"</span>,
+            <span class="code-string">"organização"</span>: <span class="code-string">"completa"</span>
+        }</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DIFFERENTIALS SECTION ========== -->
+    <section class="section section-diff" id="diferenciais">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Diferenciais</span>
+                <h2 class="section-title">Por que a CreedMead<br>é diferente</h2>
+                <p class="section-desc">Vamos além da estética. Cada decisão de design, cada linha de código, cada automação tem um objetivo: gerar resultados reais para o seu negócio.</p>
+            </div>
+            <div class="diff-grid" data-animate="stagger">
+                <div class="diff-card">
+                    <div class="diff-card-number">01</div>
+                    <h3 class="diff-card-title">Foco em conversão, não só design</h3>
+                    <p class="diff-card-text">Um site bonito que não converte é apenas despesa. Cada pixel é pensado para transformar visitantes em clientes.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-card-number">02</div>
+                    <h3 class="diff-card-title">Automação sob medida</h3>
+                    <p class="diff-card-text">Desenvolvemos scripts e integrações exclusivas para seu fluxo. Nada de soluções genéricas que não se encaixam.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-card-number">03</div>
+                    <h3 class="diff-card-title">Abordagem estratégica</h3>
+                    <p class="diff-card-text">Antes de desenhar, analisamos seu mercado, seu público e seus concorrentes. Decisões baseadas em dados, não em achismo.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-card-number">04</div>
+                    <h3 class="diff-card-title">Experiência visual premium</h3>
+                    <p class="diff-card-text">Seu negócio merece uma presença digital que transmita exatamente o nível de profissionalismo que você entrega pessoalmente.</p>
+                </div>
+                <div class="diff-card">
+                    <div class="diff-card-number">05</div>
+                    <h3 class="diff-card-title">Otimização contínua de captação</h3>
+                    <p class="diff-card-text">Não entregamos e sumimos. Acompanhamos métricas e ajustamos o sistema para captar cada vez mais leads qualificados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS SECTION ========== -->
+    <section class="section section-process" id="processo">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Processo</span>
+                <h2 class="section-title">Como transformamos<br>sua presença digital</h2>
+                <p class="section-desc">Um processo estruturado, transparente e focado em resultados. Do diagnóstico à otimização contínua.</p>
+            </div>
+            <div class="process-timeline" data-animate="stagger">
+                <div class="process-step">
+                    <div class="process-step-line" aria-hidden="true"></div>
+                    <div class="process-step-number">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="process-step-content">
+                        <h3>Diagnóstico</h3>
+                        <p>Análise completa da sua presença digital atual, identificando oportunidades e gargalos.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-line" aria-hidden="true"></div>
+                    <div class="process-step-number">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0H5a2 2 0 01-2-2v-4m6 6h10a2 2 0 002-2v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="process-step-content">
+                        <h3>Estratégia</h3>
+                        <p>Definição de posicionamento, estrutura de captação e fluxo de automação personalizado.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-line" aria-hidden="true"></div>
+                    <div class="process-step-number">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19l7-7-3-3-7 7v3h3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 13l-1.5-7.5L9 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <div class="process-step-content">
+                        <h3>Criação</h3>
+                        <p>Design estratégico e desenvolvimento da página com foco em conversão e experiência do usuário.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-line" aria-hidden="true"></div>
+                    <div class="process-step-number">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 3v6l4 2-4 2v6M7 17v-6L3 9l4-2V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <div class="process-step-content">
+                        <h3>Automação</h3>
+                        <p>Implementação de resposta automática, organização de leads e integrações com suas ferramentas.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-line" aria-hidden="true"></div>
+                    <div class="process-step-number">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <div class="process-step-content">
+                        <h3>Otimização</h3>
+                        <p>Monitoramento de métricas, testes A/B e ajustes contínuos para maximizar resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BENEFITS SECTION ========== -->
+    <section class="section section-benefits" id="beneficios">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Resultados</span>
+                <h2 class="section-title">O que muda quando<br>seu site <span class="text-gradient">trabalha por você</span></h2>
+            </div>
+            <div class="benefits-grid" data-animate="stagger">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3v22M3 14h22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Mais contatos qualificados</h3>
+                    <p>Formulários e páginas projetados para captar leads que realmente têm interesse no seu serviço.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M4 14l7 7L24 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Respostas mais rápidas</h3>
+                    <p>Automação que responde ao lead nos primeiros segundos — quando a atenção dele ainda é exclusiva.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="4" y="4" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2"/><path d="M4 11h20M11 11v13" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <h3>Leads organizados</h3>
+                    <p>Cada contato classificado, registrado e pronto para follow-up. Sem perder ninguém no caminho.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3l3.09 6.26L24 10.27l-5 4.87L20.18 22 14 18.27 7.82 22 9 15.14l-5-4.87 6.91-1.01L14 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Imagem profissional</h3>
+                    <p>Uma presença digital que transmite o mesmo nível de excelência que você entrega no atendimento presencial.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M12 3h4v8h8v4h-8v8h-4v-8H4v-4h8V3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Confiança do cliente</h3>
+                    <p>Um site bem estruturado comunica credibilidade antes mesmo do primeiro contato direto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="section section-services" id="servicos">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Serviços</span>
+                <h2 class="section-title">Soluções que entregamos</h2>
+                <p class="section-desc">Cada serviço é projetado para funcionar de forma integrada — gerando um sistema completo de atração e conversão.</p>
+            </div>
+            <div class="services-grid" data-animate="stagger">
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 12h24" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="9" r="1" fill="currentColor"/><circle cx="11" cy="9" r="1" fill="currentColor"/><circle cx="14" cy="9" r="1" fill="currentColor"/></svg>
+                    </div>
+                    <h3 class="service-card-title">Landing Pages</h3>
+                    <p class="service-card-text">Páginas de conversão focadas em um único objetivo: captar leads qualificados com design estratégico.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="4" y="4" width="24" height="24" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 14h24M12 14v14" stroke="currentColor" stroke-width="1.5"/><path d="M8 8h4M8 10h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="service-card-title">Sites Institucionais</h3>
+                    <p class="service-card-text">Presença digital completa que comunica autoridade, organiza informações e gera confiança imediata.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4v8l6 3-6 3v8M10 24v-8L4 13l6-3V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="service-card-title">Automações</h3>
+                    <p class="service-card-text">Scripts em Python para resposta automática, classificação de leads e fluxos inteligentes de follow-up.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="16" cy="24" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M11 10l3 10M21 10l-3 10" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3 class="service-card-title">Integrações</h3>
+                    <p class="service-card-text">Conexão entre seu site, WhatsApp, CRM, e-mail e planilhas — tudo funcionando em sincronia.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 26V14l10-8 10 8v12a2 2 0 01-2 2H8a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 28V18h8v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="service-card-title">Estrutura de Captação</h3>
+                    <p class="service-card-text">Sistema completo de funil digital: da atração do visitante até a organização do lead pronto para fechar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FINAL CTA + FORM SECTION ========== -->
+    <section class="section section-cta" id="contato">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <div class="container">
+            <div class="cta-layout">
+                <div class="cta-content" data-animate="fade-right">
+                    <span class="section-label">Próximo Passo</span>
+                    <h2 class="cta-title">Se o seu site não está gerando clientes,<br><span class="text-gradient">ele está custando dinheiro.</span></h2>
+                    <p class="cta-text">Solicite um diagnóstico gratuito da sua presença digital. Vamos identificar exatamente onde você está perdendo oportunidades — e mostrar como resolver.</p>
+                    <div class="cta-trust">
+                        <div class="cta-trust-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10l5 5L17 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Diagnóstico sem custo</span>
+                        </div>
+                        <div class="cta-trust-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10l5 5L17 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Sem compromisso</span>
+                        </div>
+                        <div class="cta-trust-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10l5 5L17 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Resposta em até 24h</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-form-wrapper" data-animate="fade-left">
+                    <form class="cta-form" id="lead-form" novalidate>
+                        <h3 class="form-title">Solicitar Diagnóstico</h3>
+                        <p class="form-subtitle">Preencha os campos abaixo e entraremos em contato.</p>
+                        
+                        <div class="form-group">
+                            <label for="form-name" class="form-label">Nome completo</label>
+                            <input type="text" id="form-name" name="name" class="form-input" placeholder="Seu nome" required autocomplete="name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-email" class="form-label">E-mail profissional</label>
+                            <input type="email" id="form-email" name="email" class="form-input" placeholder="seu@email.com" required autocomplete="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-phone" class="form-label">Telefone</label>
+                            <input type="tel" id="form-phone" name="phone" class="form-input" placeholder="(00) 00000-0000" required autocomplete="tel">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-goal" class="form-label">Principal objetivo</label>
+                            <div class="form-select-wrapper">
+                                <select id="form-goal" name="goal" class="form-select" required>
+                                    <option value="" disabled selected>Selecione uma opção</option>
+                                    <option value="mais-clientes">Quero mais clientes</option>
+                                    <option value="site-sem-resultado">Meu site não gera resultados</option>
+                                    <option value="automatizar">Quero automatizar atendimento</option>
+                                    <option value="presenca-digital">Quero melhorar minha presença digital</option>
+                                    <option value="sem-site">Ainda não tenho site</option>
+                                </select>
+                                <svg class="form-select-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-submit" id="form-submit">
+                            <span class="btn-submit-text">Solicitar Diagnóstico Agora</span>
+                            <span class="btn-submit-loading" aria-hidden="true">
+                                <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="22" stroke-dashoffset="22"><animateTransform attributeName="transform" type="rotate" from="0 10 10" to="360 10 10" dur="0.8s" repeatCount="indefinite"/></circle></svg>
+                            </span>
+                            <svg class="btn-submit-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                        
+                        <p class="form-privacy">Seus dados estão seguros. Não compartilhamos com terceiros.</p>
+                    </form>
+                    <div class="form-success" id="form-success" aria-live="polite">
+                        <div class="form-success-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M16 24l6 6 10-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <h3>Diagnóstico solicitado!</h3>
+                        <p>Recebemos seus dados. Nossa equipe entrará em contato em até 24 horas com uma análise completa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo" aria-label="CreedMead">
+                        <svg class="nav-logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="2" y="2" width="28" height="28" rx="6" stroke="url(#logo-grad-f)" stroke-width="2"/>
+                            <path d="M10 22V10L22 22V10" stroke="url(#logo-grad-f)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="logo-grad-f" x1="0" y1="0" x2="32" y2="32">
+                                    <stop stop-color="#00D4FF"/>
+                                    <stop offset="1" stop-color="#0066FF"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="nav-logo-text">Lid<span class="nav-logo-accent">Meed</span></span>
+                    </a>
+                    <p class="footer-tagline">Sistemas Inteligentes de Atração e Resposta.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#solucao">Solução</a>
+                    <a href="#diferenciais">Diferenciais</a>
+                    <a href="#processo">Processo</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CreedMead. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
